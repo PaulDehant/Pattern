@@ -4,16 +4,15 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
-import ru.netology.delivery.data.DataGenerator;
+import ru.netology.Data.DataGenerator;
 
 import java.time.Duration;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class Test {
+public class CardTest {
     @BeforeEach
     void setup() {
         Configuration.headless = true;
